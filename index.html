@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="icon.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<script src="main.js"></script>
-
-<body>
-    <div class="container">
-        <div class="head">
-            <h1> Check yout BMI </h1>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="icon.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <script src="main.js"></script>
+    <body>
+        <div class="container">
+            <div class="head">
+                <h1> Check yout BMI</h1>
+                <br>
+                <p>Eneter your weight and height below to check your BMI result</p>
+            </div>
             <br>
-            <p>Eneter your weight and height below to check your BMI result</p>
+            <form action="">
+                <div class="box">
+                    <span for="tinggi">Put your weight in here (KG)</span>
+                    <input type="number" id="tinggi">
+                </div>
+                <br>
+                <div class="box">
+                    <span for="berat">And your height in here (CM)</span>
+                    <input type="number" id="berat">
+                </div>
+                <br>
+                <button type="submit" onclick="kalkulator()">Calculte BMI</button>
+                <br><br>
+                <div id="hasil"></div>
+            </form>
         </div>
-        <br>
-        <form action="">
-            <div class="box">
-                <span for="tinggi">Put your weight in here (KG)</span>
-                <input type="number" id="tinggi">
-            </div>
-            <br>
-            <div class="box">
-                <span for="berat">And your height in here (CM)</span>
-                <input type="number" id="berat">
-            </div>
-            <br>
-            <button type="submit" onclick="kalkulator()">Calculte BMI</button>
-            <br><br>
-            <div id="hasil"></div>
-        </form>
-    </div>
-</body>
-
+    </body>
 </html>
