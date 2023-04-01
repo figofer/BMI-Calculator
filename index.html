@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script src="main.js"></script>
+
 <body>
-    Check yout BMI 
-    <form action="">
-        <span>Tinggi</span>
-        <input type="number" id="tinggi">
-        <span>Berat</span>
-        <input type="number" id="berat">
-    </form>
+    <div class="container">
+        <div class="head">
+            <h1> Check yout BMI </h1>
+            <br>
+            <p>Eneter your weight and height below to check your BMI result</p>
+        </div>
+        <br>
+        <form action="">
+            <div class="box">
+                <span for="tinggi">Put your weight in here (KG)</span>
+                <input type="number" id="tinggi">
+            </div>
+            <br>
+            <div class="box">
+                <span for="berat">And your height in here (CM)</span>
+                <input type="number" id="berat">
+            </div>
+            <br>
+            <button type="submit" onclick="kalkulator()">Calculte BMI</button>
+            <br><br>
+            <div id="hasil"></div>
+        </form>
+    </div>
 </body>
+
 </html>
