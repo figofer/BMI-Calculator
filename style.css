@@ -67,5 +67,16 @@ form{
     width: 100%;
 }
 #hasil{
-font-weight:500;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
 }
+#hasil img{
+    margin: 20px;
+    height: 200px;
+}
+
+
+
