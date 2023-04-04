@@ -16,11 +16,11 @@ body{
     height: 100vh;
 }
 .container{
+   
+    padding: 50px;
     align-items: center;
     display: flex;
-   
     flex-direction: column;
-    
     height: 400px;
 }
 
